@@ -20,10 +20,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"brillance/cryptotool/ca"
-	"brillance/cryptotool/utils"
 	"crypto/x509"
 	"encoding/hex"
+	"github.com/dilide/cryptotool/ca"
+	"github.com/dilide/cryptotool/utils"
 )
 
 //command line flags

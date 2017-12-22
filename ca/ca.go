@@ -1,13 +1,13 @@
 package ca
 
 import (
-	"brillance/cryptotool/utils"
 	"crypto"
 	"crypto/ecdsa"
 	"crypto/rand"
 	"crypto/x509"
 	"crypto/x509/pkix"
 	"encoding/pem"
+	"github.com/dilide/cryptotool/utils"
 	"io/ioutil"
 	"math/big"
 	"os"
